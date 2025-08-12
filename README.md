@@ -13,7 +13,7 @@ A **header-only C++17-compatible** library that provides essential utilities to 
 
 ---
 
-## 🔧 How the Solver Works
+## How the Solver Works
 
 The algorithm uses **backtracking**, a popular technique for solving constraint satisfaction problems like Sudoku.
 
@@ -37,3 +37,4 @@ You can compile and run the test file using:
 ```bash
 c++ --std=c++17 tests/test_sudoku_suite.cpp -o test_sudoku
 ./test_sudoku
+
